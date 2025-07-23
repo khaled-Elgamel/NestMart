@@ -18,7 +18,7 @@ NestMart is a fully featured e-commerce backend built with [NestJS](https://nest
 - ✅ Guards, Interceptors, Middleware (like Morgan)
 - ✅ Validated environment configuration using Joi
 - ✅ Pagination, Search, and Filtering for products
-- ✅ Docker support
+- ✅ Docker
 
 ---
 
