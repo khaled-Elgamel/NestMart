@@ -29,7 +29,7 @@ src/
 ├── auth/        # Auth module (guards, login, register)
 ├── users/       # User module with role-based logic
 ├── product/     # Product module (CRUD, filtering, etc.)
-├── common/      # Decorators, interfaces, guards
+├── common/      # Decorators, Pipes, Filters, Interceptors
 ├── mongo/       # MongoDB connection
 ├── main.ts      # App entrypoint
 └── app.module.ts # Root module
