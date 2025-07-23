@@ -23,18 +23,17 @@ NestMart is a fully featured e-commerce backend built with [NestJS](https://nest
 ---
 
 ## 📁 Project Structure
-
+```bash
 src/
 │
-├── auth/ # Auth module (guards, login, register)
-├── users/ # User module with role-based logic
-├── product/ # Product module (CRUD, filtering, etc.)
-├── common/ # Decorators, pipes, filters, interceptors
-├── mongo/ # MongoDB connection
-├── main.ts # App entrypoint
+├── auth/        # Auth module (guards, login, register)
+├── users/       # User module with role-based logic
+├── product/     # Product module (CRUD, filtering, etc.)
+├── common/      # Decorators, Pipes, Filters, Interceptors
+├── mongo/       # MongoDB connection
+├── main.ts      # App entrypoint
 └── app.module.ts # Root module
-
----
+```
 
 ## ⚙️ Getting Started
 
@@ -45,15 +44,25 @@ git clone https://github.com/your-username/nestmart.git
 cd nestmart
 ```
 
-2. Install dependencies
-   npm install
+### 2. Install dependencies
 
-3. Create .env file
+```bash
+npm install
+```
 
-   PORT=3000
-   MONGO_URI=mongodb://localhost:27017/nestmart
-   JWT_SECRET=your_jwt_secret
-   JWT_EXPIRES_IN=1d
+### 3. Create .env file
 
-4. Run the app
-   npm run start:dev
+```bash
+PORT=3000
+   
+MONGO_URI=mongodb://localhost:27017/nestmart
+   
+JWT_SECRET=your_jwt_secret
+   
+JWT_EXPIRES_IN=1d
+```
+
+### 4. Run the app
+```bash
+npm run start:dev
+```
