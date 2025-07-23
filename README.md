@@ -27,11 +27,17 @@ NestMart is a fully featured e-commerce backend built with [NestJS](https://nest
 src/
 │
 ├── auth/ # Auth module (guards, login, register)
+
 ├── users/ # User module with role-based logic
+
 ├── product/ # Product module (CRUD, filtering, etc.)
+
 ├── common/ # Decorators, pipes, filters, interceptors
+
 ├── mongo/ # MongoDB connection
+
 ├── main.ts # App entrypoint
+
 └── app.module.ts # Root module
 
 ---
