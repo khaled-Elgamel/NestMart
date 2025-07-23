@@ -53,7 +53,10 @@ cd nestmart
 ```
 
 ### 2. Install dependencies
-   npm install
+
+```bash
+npm install
+```
 
 ### 3. Create .env file
 
