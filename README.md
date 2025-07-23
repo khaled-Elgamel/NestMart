@@ -60,13 +60,15 @@ npm install
 
 ### 3. Create .env file
 
-   PORT=3000
+```bash
+PORT=3000
    
-   MONGO_URI=mongodb://localhost:27017/nestmart
+MONGO_URI=mongodb://localhost:27017/nestmart
    
-   JWT_SECRET=your_jwt_secret
+JWT_SECRET=your_jwt_secret
    
-   JWT_EXPIRES_IN=1d
+JWT_EXPIRES_IN=1d
+```
 
 ### 4. Run the app
    npm run start:dev
