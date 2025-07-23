@@ -52,10 +52,10 @@ git clone https://github.com/your-username/nestmart.git
 cd nestmart
 ```
 
-2. Install dependencies
+### 2. Install dependencies
    npm install
 
-3. Create .env file
+### 3. Create .env file
 
    PORT=3000
    
@@ -65,5 +65,5 @@ cd nestmart
    
    JWT_EXPIRES_IN=1d
 
-5. Run the app
+### 4. Run the app
    npm run start:dev
