@@ -71,4 +71,6 @@ JWT_EXPIRES_IN=1d
 ```
 
 ### 4. Run the app
-   npm run start:dev
+```bash
+npm run start:dev
+```
