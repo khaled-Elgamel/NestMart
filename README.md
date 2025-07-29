@@ -40,7 +40,7 @@ src/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/nestmart.git
+git clone https://github.com/khaled-Elgamel/nestmart.git
 cd nestmart
 ```
 
