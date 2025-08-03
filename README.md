@@ -23,6 +23,7 @@ NestMart is a fully featured e-commerce backend built with [NestJS](https://nest
 ---
 
 ## 📁 Project Structure
+
 ```bash
 src/
 │
@@ -54,15 +55,16 @@ npm install
 
 ```bash
 PORT=3000
-   
+
 MONGO_URI=mongodb://localhost:27017/nestmart
-   
+
 JWT_SECRET=your_jwt_secret
-   
+
 JWT_EXPIRES_IN=1d
 ```
 
 ### 4. Run the app
+
 ```bash
 npm run start:dev
 ```
