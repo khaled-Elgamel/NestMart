@@ -30,3 +30,7 @@ jobs:
 
       - name: 🧪 Run tests
         run: npm test
+
+      # - name: 🚀 Deploy to Production
+      #   if: success()
+      #   run: curl -X POST ${{ secrets.DEPLOY_HOOK_URL }}
